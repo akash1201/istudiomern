@@ -48,9 +48,9 @@ const LoginScreen = ({ location, history }) => {
             <Col lg={5} md={6} className="order-1 order-md-2">
               <div className="login-form">
                 <div className="login-logo">
-                  <Link className="btn" to='/'>
+                  {/* <Link className="btn" to='/'>
                     <img src="img/logo-1.png" alt="Logo" />
-                  </Link>
+                  </Link> */}
                 </div>
                 <h2>Login</h2>
                 {error && <Message variant='danger'>{error}</Message>}

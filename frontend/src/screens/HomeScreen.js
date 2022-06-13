@@ -226,7 +226,7 @@ const HomeScreen = ({ match }) => {
                         <div  className="slide-caption-content">
                             <p>Best Deals Online</p>
                             <h3>poco M3 <br />  smartphone</h3>
-                            <p>Starting at <strong>$79</strong></p>
+                            {/* <p>Starting at <strong>$79</strong></p> */}
                             <div className='banner-btn'>
                               <a href='#' className='zoominleft'>Buy It Now</a>
                             </div>
@@ -243,7 +243,7 @@ const HomeScreen = ({ match }) => {
                         <div  className="slide-caption-content">
                             <p>Best Deals Online</p>
                             <h3>SamSung M12<br />  smartphone</h3>
-                            <p>Starting at <strong>$79</strong></p>
+                            {/* <p>Starting at <strong>$79</strong></p> */}
                             <div className='banner-btn'>
                               <a href='#' className='zoominleft'>Buy It Now</a>
                             </div>
@@ -260,7 +260,7 @@ const HomeScreen = ({ match }) => {
                         <div  className="slide-caption-content">
                             <p>Weekend Promotions</p>
                             <h3>Combo oculus <br />  Samsung Gear VR</h3>
-                            <p>only price <strong>$749</strong></p>
+                            {/* <p>only price <strong>$749</strong></p> */}
                             <div className='banner-btn'>
                               <a href='#' className='zoominleft'>Buy It Now</a>
                             </div>
@@ -277,7 +277,7 @@ const HomeScreen = ({ match }) => {
                         <div  className="slide-caption-content">
                             <p>Weekend Promotions</p>
                             <h3>Beat Solo Gold <br />  Headphone Wireless</h3>
-                            <p>only price <strong>$199</strong></p>
+                            {/* <p>only price <strong>$199</strong></p> */}
                             <div className='banner-btn'>
                               <a href='#' className='zoominleft'>Buy It Now</a>
                             </div>
@@ -294,7 +294,7 @@ const HomeScreen = ({ match }) => {
         <div className='row'>
           <div className='col-md-12'>
             <div className="title-home">Choose Categories</div>
-            <p class="block-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br /> incididunt ut labore et dolore magna aliqua.</p>
+            <p class="block-description"></p>
           </div>
         </div>
       { categories.length != 0 && 
@@ -423,218 +423,7 @@ const HomeScreen = ({ match }) => {
     </section>
 
     <section className='grid-view-products py40'>
-      <div className='container'>
-        <div className='row'>
-          <div className='col-md-12'>
-            <div className='home-product-heading'>
-              <h2>Top Best Selling <span class="sup-title">Product</span></h2>
-              <ul>
-                <li><a href='#' className="active">Latest Products</a></li>
-                <li><a href='#'>Recently Viewed</a></li>
-                <li><a href='#'>Top Selling</a></li>
-              </ul>
-            </div>
-          </div>
-        </div> 
-        <div className='row'>
-          <div className='col-md-3'>
-            <div className="product-card">
-              <div className="product-card-top">
-                <a href="#" className="product-image">
-                    <img src="img/samsung-galaxy-s21-2021-bundle.jpg" alt="product image" />
-                </a>
-                <div className="product-card-actions">
-                  <button title="Wishlist" className="btn btn-wishlist">
-                    <i className="la-heart lar"></i>
-                  </button>
-                  <button title="Compare" className="btn btn-compare">
-                    <i className="las la-random"></i>
-                  </button>
-                </div>
-                <ul className="list-inline product-badge">
-                  <li className="badge badge-primary">New</li>
-                  <li className="badge badge-success">-11.5%</li>
-                </ul>
-              </div>
-              <div className="product-card-middle">
-                <div className="product-rating">
-                  <div className="back-stars">
-                    <i className="las la-star"></i> <i className="las la-star"></i>
-                    <i className="las la-star"></i> <i className="las la-star"></i>
-                    <i className="las la-star"></i>
-                    <div className="front-stars" style={{width: 40}}>
-                      <i className="las la-star"></i> <i className="las la-star"></i>
-                      <i className="las la-star"></i> <i className="las la-star"></i>
-                      <i className="las la-star"></i>
-                    </div>
-                  </div>
-                  <span className="rating-count">(0)</span>
-                </div>
-                <a href="#" className="product-name" ><h6>Fanmis Men's Luxury Analog Quartz Gold Wrist Watches</h6></a>
-                <div className="product-price product-price-clone">
-                  $15.92 <span className="previous-price">$17.99</span>
-                </div>
-              </div>
-              <div className="product-card-bottom">
-                <div className="product-price">
-                  $15.92 <span className="previous-price">$17.99</span>
-                </div>
-                <button className="btn btn-primary btn-add-to-cart">
-                  <i className="las la-cart-arrow-down"></i>
-                  ADD TO CART
-                </button>
-              </div>
-            </div>
-          </div>
-          <div className='col-md-3'>
-            <div className="product-card">
-              <div className="product-card-top">
-                <a href="#" className="product-image">
-                    <img src="img/samsung-galaxy-s21-2021-bundle.jpg" alt="product image" />
-                </a>
-                <div className="product-card-actions">
-                  <button title="Wishlist" className="btn btn-wishlist">
-                    <i className="la-heart lar"></i>
-                  </button>
-                  <button title="Compare" className="btn btn-compare">
-                    <i className="las la-random"></i>
-                  </button>
-                </div>
-                <ul className="list-inline product-badge">
-                  <li className="badge badge-primary">New</li>
-                  <li className="badge badge-success">-11.5%</li>
-                </ul>
-              </div>
-              <div className="product-card-middle">
-                <div className="product-rating">
-                  <div className="back-stars">
-                    <i className="las la-star"></i> <i className="las la-star"></i>
-                    <i className="las la-star"></i> <i className="las la-star"></i>
-                    <i className="las la-star"></i>
-                    <div className="front-stars" style={{width: 40}}>
-                      <i className="las la-star"></i> <i className="las la-star"></i>
-                      <i className="las la-star"></i> <i className="las la-star"></i>
-                      <i className="las la-star"></i>
-                    </div>
-                  </div>
-                  <span className="rating-count">(0)</span>
-                </div>
-                <a href="#" className="product-name" ><h6>Fanmis Men's Luxury Analog Quartz Gold Wrist Watches</h6></a>
-                <div className="product-price product-price-clone">
-                  $15.92 <span className="previous-price">$17.99</span>
-                </div>
-              </div>
-              <div className="product-card-bottom">
-                <div className="product-price">
-                  $15.92 <span className="previous-price">$17.99</span>
-                </div>
-                <button className="btn btn-primary btn-add-to-cart">
-                  <i className="las la-cart-arrow-down"></i>
-                  ADD TO CART
-                </button>
-              </div>
-            </div>
-          </div>
-          <div className='col-md-3'>
-            <div className="product-card">
-              <div className="product-card-top">
-                <a href="#" className="product-image">
-                    <img src="img/samsung-galaxy-s21-2021-bundle.jpg" alt="product image" />
-                </a>
-                <div className="product-card-actions">
-                  <button title="Wishlist" className="btn btn-wishlist">
-                    <i className="la-heart lar"></i>
-                  </button>
-                  <button title="Compare" className="btn btn-compare">
-                    <i className="las la-random"></i>
-                  </button>
-                </div>
-                <ul className="list-inline product-badge">
-                  <li className="badge badge-primary">New</li>
-                  <li className="badge badge-success">-11.5%</li>
-                </ul>
-              </div>
-              <div className="product-card-middle">
-                <div className="product-rating">
-                  <div className="back-stars">
-                    <i className="las la-star"></i> <i className="las la-star"></i>
-                    <i className="las la-star"></i> <i className="las la-star"></i>
-                    <i className="las la-star"></i>
-                    <div className="front-stars" style={{width: 40}}>
-                      <i className="las la-star"></i> <i className="las la-star"></i>
-                      <i className="las la-star"></i> <i className="las la-star"></i>
-                      <i className="las la-star"></i>
-                    </div>
-                  </div>
-                  <span className="rating-count">(0)</span>
-                </div>
-                <a href="#" className="product-name" ><h6>Fanmis Men's Luxury Analog Quartz Gold Wrist Watches</h6></a>
-                <div className="product-price product-price-clone">
-                  $15.92 <span className="previous-price">$17.99</span>
-                </div>
-              </div>
-              <div className="product-card-bottom">
-                <div className="product-price">
-                  $15.92 <span className="previous-price">$17.99</span>
-                </div>
-                <button className="btn btn-primary btn-add-to-cart">
-                  <i className="las la-cart-arrow-down"></i>
-                  ADD TO CART
-                </button>
-              </div>
-            </div>
-          </div>
-          <div className='col-md-3'>
-            <div className="product-card">
-              <div className="product-card-top">
-                <a href="#" className="product-image">
-                    <img src="img/samsung-galaxy-s21-2021-bundle.jpg" alt="product image" />
-                </a>
-                <div className="product-card-actions">
-                  <button title="Wishlist" className="btn btn-wishlist">
-                    <i className="la-heart lar"></i>
-                  </button>
-                  <button title="Compare" className="btn btn-compare">
-                    <i className="las la-random"></i>
-                  </button>
-                </div>
-                <ul className="list-inline product-badge">
-                  <li className="badge badge-primary">New</li>
-                  <li className="badge badge-success">-11.5%</li>
-                </ul>
-              </div>
-              <div className="product-card-middle">
-                <div className="product-rating">
-                  <div className="back-stars">
-                    <i className="las la-star"></i> <i className="las la-star"></i>
-                    <i className="las la-star"></i> <i className="las la-star"></i>
-                    <i className="las la-star"></i>
-                    <div className="front-stars" style={{width: 40}}>
-                      <i className="las la-star"></i> <i className="las la-star"></i>
-                      <i className="las la-star"></i> <i className="las la-star"></i>
-                      <i className="las la-star"></i>
-                    </div>
-                  </div>
-                  <span className="rating-count">(0)</span>
-                </div>
-                <a href="#" className="product-name" ><h6>Fanmis Men's Luxury Analog Quartz Gold Wrist Watches</h6></a>
-                <div className="product-price product-price-clone">
-                  $15.92 <span className="previous-price">$17.99</span>
-                </div>
-              </div>
-              <div className="product-card-bottom">
-                <div className="product-price">
-                  $15.92 <span className="previous-price">$17.99</span>
-                </div>
-                <button className="btn btn-primary btn-add-to-cart">
-                  <i className="las la-cart-arrow-down"></i>
-                  ADD TO CART
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>       
-      </div>
+      
 
     </section>
 
@@ -653,9 +442,9 @@ const HomeScreen = ({ match }) => {
                         <p>4GB RAM | 64GB ROM | 20MP</p>
                         <p class="text-price mb-0">
                             <span>
-                                <span style={{fontSize: '18px'}}>now at</span>
+                                
                                 <span  style={{fontSize: '42px', lineHeight: '42px'}}>
-                                    <strong><em>$</em> 749</strong>
+                                    
                                 </span>
                             </span>
                         </p>
@@ -678,9 +467,9 @@ const HomeScreen = ({ match }) => {
                         <p>4GB RAM | 64GB ROM | 20MP</p>
                         <p class="text-price mb-0">
                             <span>
-                                <span style={{fontSize: '18px'}}>now at</span>
+                                
                                 <span  style={{fontSize: '42px', lineHeight: '42px'}}>
-                                    <strong><em>$</em> 749</strong>
+                                    
                                 </span>
                             </span>
                         </p>
@@ -703,9 +492,9 @@ const HomeScreen = ({ match }) => {
                         <p>4GB RAM | 64GB ROM | 20MP</p>
                         <p class="text-price mb-0">
                             <span>
-                                <span style={{fontSize: '18px'}}>now at</span>
+                                
                                 <span  style={{fontSize: '42px', lineHeight: '42px'}}>
-                                    <strong><em>$</em> 749</strong>
+                                    
                                 </span>
                             </span>
                         </p>
@@ -772,95 +561,6 @@ const HomeScreen = ({ match }) => {
     </section>
 
       
-    <section className="home_brand_list">
-      <div className="container">
-          <div className="row brand_heading">
-              <div className="col-md-2">
-                  <h2>Master <br />brand list</h2>
-              </div>
-              <div className="col-md-8">
-                  <p>Click the brand icons to see products available. Click here to see all manufacturers and brands we carry. If you don't see the brand you are looking for, send us an email and we'll see what we can do to get it for you. We add new brands and products every month!</p>
-              </div>
-              <div className="col-md-2">
-                  <h4><a href="#">SEE ALL</a></h4>
-              </div>
-          </div>
-          {/* <div className="row brands-letter home_logo_slider"> */}
-          <Slider {...home_logo_slider} className="brands-letter home_logo_slider">
-            <div>
-                <div className="thumbnail-brand brand-image">
-                    <a className="brand-img-link" href="#">
-                        <img className="f-barnd-img" src="img/brands/brand-1.png" />
-                    </a>
-                </div>
-            </div>
-            <div>
-                <div className="thumbnail-brand brand-image">
-                    <a className="brand-img-link" href="#">
-                        <img className="f-barnd-img" src="img/brands/brand-2.png" />
-                    </a>
-                </div>
-            </div>
-            <div>
-                <div className="thumbnail-brand brand-image">
-                    <a className="brand-img-link" href="#">
-                        <img className="f-barnd-img" src="img/brands/brand-3.png" />
-                    </a>
-                </div>
-            </div>
-            <div>
-                <div className="thumbnail-brand brand-image">
-                    <a className="brand-img-link" href="#">
-                        <img className="f-barnd-img" src="img/brands/brand-4.png" />
-                    </a>
-                </div>
-            </div>
-            <div>
-                <div className="thumbnail-brand brand-image">
-                    <a className="brand-img-link" href="#">
-                        <img className="f-barnd-img" src="img/brands/brand-5.png" />
-                    </a>
-                </div>
-            </div>
-            <div>
-                <div className="thumbnail-brand brand-image">
-                    <a className="brand-img-link" href="#">
-                        <img className="f-barnd-img" src="img/brands/brand-6.png" />
-                    </a>
-                </div>
-            </div>
-            <div>
-                <div className="thumbnail-brand brand-image">
-                    <a className="brand-img-link" href="#">
-                        <img className="f-barnd-img" src="img/brands/brand-7.png" />
-                    </a>
-                </div>
-            </div>
-            <div>
-                <div className="thumbnail-brand brand-image">
-                    <a className="brand-img-link" href="#">
-                        <img className="f-barnd-img" src="img/brands/brand-8.png" />
-                    </a>
-                </div>
-            </div>
-            <div>
-                <div className="thumbnail-brand brand-image">
-                    <a className="brand-img-link" href="#">
-                        <img className="f-barnd-img" src="img/brands/brand-9.png" />
-                    </a>
-                </div>
-            </div>
-            <div>
-                <div className="thumbnail-brand brand-image">
-                    <a className="brand-img-link" href="#">
-                        <img className="f-barnd-img" src="img/brands/brand-10.png" />
-                    </a>
-                </div>
-            </div>
-          </Slider>
-      </div>
-    </section>
-
     <section className='py40'>
       <div className='container'>
         <div className='row'>
@@ -876,9 +576,9 @@ const HomeScreen = ({ match }) => {
                         <p>4GB RAM | 64GB ROM | 20MP</p>
                         <p class="text-price mb-0">
                             <span>
-                                <span style={{fontSize: '18px'}}>now at</span>
+                                
                                 <span  style={{fontSize: '42px', lineHeight: '42px'}}>
-                                    <strong><em>$</em> 749</strong>
+                                    
                                 </span>
                             </span>
                         </p>
@@ -901,9 +601,9 @@ const HomeScreen = ({ match }) => {
                         <p>4GB RAM | 64GB ROM | 20MP</p>
                         <p class="text-price mb-0">
                             <span>
-                                <span style={{fontSize: '18px'}}>now at</span>
+                                
                                 <span  style={{fontSize: '42px', lineHeight: '42px'}}>
-                                    <strong><em>$</em> 749</strong>
+                                    
                                 </span>
                             </span>
                         </p>
@@ -918,7 +618,7 @@ const HomeScreen = ({ match }) => {
       </div>
     </section>
 
-    <section className='home-mostView'>
+    {/* <section className='home-mostView'>
       <div className='container'>
       <div className="row">
           <div className="col-md-12">
@@ -1179,7 +879,7 @@ const HomeScreen = ({ match }) => {
         </Slider>
       </div>
     </section>
-
+   */}
     <section className='py40'>
       <div className='container'>
         <div className='row'>
@@ -1195,9 +895,9 @@ const HomeScreen = ({ match }) => {
                         <p>4GB RAM | 64GB ROM | 20MP</p>
                         <p class="text-price mb-0">
                             <span>
-                                <span style={{fontSize: '18px'}}>now at</span>
+                                
                                 <span  style={{fontSize: '42px', lineHeight: '42px'}}>
-                                    <strong><em>$</em> 749</strong>
+                                    
                                 </span>
                             </span>
                         </p>

@@ -69,7 +69,6 @@ const DeliveryScreen = ({ match, location, history }) => {
         window.scrollTo(0,0)
         setTimeout(()=>{setErr(false)}, 4000)
     }else{
-      //dispatch(saveShippingAddress({ address, city, postalCode, country }))
     history.push("/payment");
     }
 

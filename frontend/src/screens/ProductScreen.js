@@ -376,12 +376,12 @@ const ProductScreen = ({ history, match }) => {
                           :
                             activeVariant.offerPrice?
                                           <div className="product-price">
-                                              <ins>${activeVariant.offerPrice}</ins>
-                                              <del>${activeVariant.price}</del>
+                                              <ins>{activeVariant.offerPrice}</ins>
+                                              <del>{activeVariant.price}</del>
                                           </div>
                                           :
                                           <div className="product-price">
-                                              <ins>${activeVariant.price}</ins>
+                                              <ins>{activeVariant.price}</ins>
                                           </div>
                           }
                           

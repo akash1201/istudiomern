@@ -50,15 +50,12 @@ const ShippingScreen = ({ history }) => {
     e.preventDefault();
      
     if(isEmpty(shippingAddress)){
-        // setError(true)
         window.scrollTo(0,0)
         alert('Please select a shipping address')
-        // setTimeout(()=>{setError(false)}, 5000)
-
       return;
     }
     dispatch(saveShippingAddress(shippingAddress));
-    history.push("/delivery");
+    history.push("/payment");
   };
 
   const updateDelivery = (AddressData) => {
@@ -67,7 +64,7 @@ const ShippingScreen = ({ history }) => {
     if(statusEmail){
       dispatch(saveStatusEmail(statusEmail))
     }
-    history.push("/delivery");
+    history.push("/payment");
   };
 
   return (

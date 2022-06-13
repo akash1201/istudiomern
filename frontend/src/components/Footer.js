@@ -159,22 +159,18 @@ const Footer = () => {
                                     </ul>
                                 </div>
                             </Col>
-                            <Col md={4}>
+                            {/* <Col md={4}>
                                 <div className='footer-links'>
                                     <h4>Extra Links</h4>
                                     <ul>
                                     {userInfo && <li><VendorDrawerForm /></li>}
 
                                         <li><Link to='/how-does-it-work'>How Does It Work</Link></li>
-                                        {/* <li><Link to='/'>Pricing</Link></li> */}
-                                        {/* <li><Link to='/'>Fulfillment by Shop Clues</Link></li> */}
-                                        {/* <li><Link to='/'>Merchant Tools</Link></li> */}
+                                        
                                         <li><Link to='/privacy-policy'>Policies& Rules</Link></li>
-                                        {/* <li><Link to='/'>Testimonials</Link></li>
-                                        <li><Link to='/'>Merchant Ratings</Link></li> */}
                                     </ul>
                                 </div>
-                            </Col>
+                            </Col> */}
                             <Col md={4}>
                                 <div className='footer-links'>
                                     <h4>Information</h4>

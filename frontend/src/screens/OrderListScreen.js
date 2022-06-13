@@ -104,7 +104,7 @@ const OrderListScreen = ({ match,history }) => {
                           </div>
                           <div className="content">
                             <h5>{e.variantName}, {e.qty}-piece</h5>
-                            <p>$ {e.price.toFixed(2)}</p>
+                            <p>{e.price.toFixed(2)}</p>
                             <div className="button">
                               {
                                 e.fromPrintful?
@@ -115,12 +115,12 @@ const OrderListScreen = ({ match,history }) => {
                                 :
                                 <a className="order" href={e.tracking_url_provider} target="_blank">track order</a>
                               }
-                              {
+                              {/* {
                                 e.isCancel?
                                 <></>
                                 :
                                 <CancelReasonModal shipping_status={e.shipping_status} handleSave={cancelOrder} id={e._id}/>
-                              }
+                              } */}
                               {
                                 e.shipping_status == 'Package Delivered' ? <ReviewProduct productId={e.productId}/> : <></>
                               }

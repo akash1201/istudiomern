@@ -18,6 +18,7 @@ const PaymentScreen = ({ history }) => {
     useEffect(() => {
         window.scrollTo(0, 0)
         document.title = "Payment"
+        placeOrder();
       }, [])
 
 
@@ -31,11 +32,11 @@ const PaymentScreen = ({ history }) => {
 
   useEffect(()=>{
 
-    if(cart){
-          if(cart.shippingCharge === 0 || cart.shippingCharge === '0'){
-            history.push('/delivery')
-          }
-    }
+    // if(cart){
+    //       if(cart.shippingCharge === 0 || cart.shippingCharge === '0'){
+    //         history.push('/delivery')
+    //       }
+    // }
 
   },[cart])
 
@@ -209,11 +210,9 @@ const PaymentScreen = ({ history }) => {
                         postalCode: cart.shippingAddress.Zip,
                         country: cart.shippingAddress.Country,
                     },
-                    paymentMethod: paymentMethod,
+                    paymentMethod: 'card',
                     paymentStatus: 'unpaid',
-                    card: selectedCard,
-                    shipping_id: cart.cartItems[i].shipping_Obj,
-                    shippingCharge: cart.cartItems[i].shippingCharge
+                    card: 'selectedCard',
         }
         data = [...data, buff]
     }

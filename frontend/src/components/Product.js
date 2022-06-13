@@ -206,11 +206,11 @@ const Product = ({
           {!isistudioMerch ? (
                 product.offerPrice ? (
                   <>
-                    ${product.offerPrice} <span className="previous-price">${product.price}</span>
+                    {product.offerPrice} <span className="previous-price">{product.price}</span>
                   </>
                 ) : (
                   <>
-                    ${product.price}
+                    {product.price}
                   </>
                 )
               ) : (

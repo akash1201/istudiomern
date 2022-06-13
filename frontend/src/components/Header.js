@@ -296,7 +296,10 @@ const Header = () => {
         <Container>
           <Row>
             <div className="header-logo">
-              <LinkContainer to='/' className="previous"><Nav.Link><img src="/assets/img/logo.png" /></Nav.Link></LinkContainer>
+              <LinkContainer to='/' className="previous"><Nav.Link>
+                <h3 style={{color : 'white'}}>IStudios</h3>
+                {/* <img src="/assets/img/logo.png" /> */}
+                </Nav.Link></LinkContainer>
             </div>
             <div className="menu-notifications-icon">
                 <div className="header-srch">

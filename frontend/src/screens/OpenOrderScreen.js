@@ -100,7 +100,7 @@ const OpenOrderScreen = ({match}) => {
 			  </div>
 			  <div className="content">
 			    <h5>{e.variantName}, {e.qty}-piece</h5>
-			    <p>$ {e.price.toFixed(2)}</p>
+			    <p>{e.price.toFixed(2)}</p>
 			    <div className="button">
 			      {
 			        e.fromPrintful?
@@ -111,7 +111,7 @@ const OpenOrderScreen = ({match}) => {
 			      {
 				      console.log(e)
 			      }
-			     <CancelReasonModal shipping_status={e.shipping_status} handleSave={cancelOrder} id={e._id}/>
+			     {/* <CancelReasonModal shipping_status={e.shipping_status} handleSave={cancelOrder} id={e._id}/> */}
 			      {/* <a className="chat chat-seller-btn" href=""> chat with seller</a> */}
 			    </div>
 			  </div>
